@@ -1,5 +1,7 @@
 {
   "sectionName": {
-    "addRemove": "Add/Remove Elements"
+    "addRemove": "Add/Remove Elements",
+    "basicAuth": "Basic Auth",
+    "challengingDom": "Challenging DOM"
   }
 }

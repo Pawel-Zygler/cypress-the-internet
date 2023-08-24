@@ -1,5 +1,9 @@
+//is it really needeD?
+
 class homePage {
   homepageSubcategory(section) {
-    cy.contains(`${section}`);
+    return cy.contains(`${section}`);
   }
 }
+
+export default new homePage();
