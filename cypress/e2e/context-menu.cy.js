@@ -1,12 +1,12 @@
 import testData from "../fixtures/testData.json";
 
-describe("CHECKBOXES", () => {
+describe("CONTEXT MENU", () => {
   beforeEach(function () {
     cy.visit("/");
     cy.contains(testData.sectionName.contextMenu).click();
   });
 
-  it("asserts not selected", () => {
+  it("clicks context menu", () => {
     cy.get("#hot-spot").click({ button: "right" });
   });
 });
