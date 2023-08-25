@@ -1,9 +1,6 @@
 Cypress automation for difficult scenarios.
 
 npx cypress open
-
-Uruchomienie Wszystkich Testów Bez Interfejsu:
-"headless"
 npx cypress run
 
 Uruchomienie Konkretnego Pliku Testowego:

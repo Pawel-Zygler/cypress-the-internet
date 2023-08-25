@@ -2,6 +2,7 @@
   "sectionName": {
     "addRemove": "Add/Remove Elements",
     "basicAuth": "Basic Auth",
-    "challengingDom": "Challenging DOM"
+    "challengingDom": "Challenging DOM",
+    "checkboxes": "Checkboxes"
   }
 }
