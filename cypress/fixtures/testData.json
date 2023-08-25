@@ -6,6 +6,7 @@
     "checkboxes": "Checkboxes",
     "contextMenu": "Context Menu",
     "disappearingElements": "Disappearing Elements",
-    "dnd": "Drag and Drop"
+    "dnd": "Drag and Drop",
+    "dropdown": "Dropdown"
   }
 }
