@@ -3,6 +3,8 @@
     "addRemove": "Add/Remove Elements",
     "basicAuth": "Basic Auth",
     "challengingDom": "Challenging DOM",
-    "checkboxes": "Checkboxes"
+    "checkboxes": "Checkboxes",
+    "contextMenu": "Context Menu",
+    "disappearingElements": "Disappearing Elements"
   }
 }
