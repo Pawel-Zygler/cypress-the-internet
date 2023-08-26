@@ -28,7 +28,7 @@ describe("DNAMIC CONTROLS", () => {
     cy.get("#message").should("have.text", "It's back!");
   });
 
-  it.only("clicks Enable button", () => {
+  it("clicks Enable button", () => {
     cy.get("#input-example > input").should("have.attr", "disabled");
     cy.get("#input-example > button").click();
     cy.get("#input-example > input").type("testType");
