@@ -17,6 +17,7 @@ W tym przypadku, baseUrl zostanie ustawione na http://localhost:8080.
 =========
 
 SCENARIOS TO DO:
+Mozesz jeszcze inaczej ogranc fileDownload, z uzyciem libki cypressowej, zamiast klikac normalnie
 Whole internet app
 Potem jakiś bankowy website chętnie bym ogarnal
 

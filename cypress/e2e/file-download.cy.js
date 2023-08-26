@@ -1,6 +1,7 @@
-/// <reference types="cypress-downloadfile"/>
-
 import testData from "../fixtures/testData.json";
+
+const file1 = "Image.jpg";
+const file2 = "filename.txt";
 
 describe("FILE DOWNLOAD", () => {
   beforeEach(function () {
@@ -9,10 +10,10 @@ describe("FILE DOWNLOAD", () => {
   });
 
   it("downloads a file", () => {
-    cy.downloadFile(
-      "https://the-internet.herokuapp.com/download/uploading.txt",
-      "downloads",
-      "uploading.text"
-    );
+    cy.get(`[href="download/${file2}"]`).click();
+  });
+
+  it("downloads a file", () => {
+    cy.get(`[href="download/${file1}"]`).click();
   });
 });
