@@ -11,6 +11,7 @@
     "dynamicControls": "Dynamic Controls",
     "dynamicLoading": "Dynamic Loading",
     "ad": "Entry Ad",
-    "exit": "Exit Intent"
+    "exit": "Exit Intent",
+    "fileDownload": "File Download"
   }
 }
