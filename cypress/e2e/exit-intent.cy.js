@@ -3,7 +3,6 @@ import testData from "../fixtures/testData.json";
 describe("EXIT INTENT", () => {
   beforeEach(function () {
     cy.visit("/");
-    cy.viewport(1024, 768);
     cy.contains(testData.sectionName.exit).click();
   });
 
