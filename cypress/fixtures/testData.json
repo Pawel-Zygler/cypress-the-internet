@@ -12,6 +12,7 @@
     "dynamicLoading": "Dynamic Loading",
     "ad": "Entry Ad",
     "exit": "Exit Intent",
-    "fileDownload": "File Download"
+    "fileDownload": "File Download",
+    "fileUpload": "File Upload"
   }
 }
