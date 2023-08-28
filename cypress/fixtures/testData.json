@@ -15,6 +15,11 @@
     "fileDownload": "File Download",
     "fileUpload": "File Upload",
     "floatingMenu": "Floating Menu",
-    "login": "Form Authentication"
+    "login": "Form Authentication",
+    "frames": {
+      "name": "Frames",
+      "nested": "Nested Frames",
+      "iframe": "iFrame"
+    }
   }
 }
