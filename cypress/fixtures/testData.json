@@ -14,6 +14,7 @@
     "exit": "Exit Intent",
     "fileDownload": "File Download",
     "fileUpload": "File Upload",
-    "floatingMenu": "Floating Menu"
+    "floatingMenu": "Floating Menu",
+    "login": "Form Authentication"
   }
 }
