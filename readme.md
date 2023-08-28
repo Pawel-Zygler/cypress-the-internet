@@ -18,8 +18,9 @@ W tym przypadku, baseUrl zostanie ustawione na http://localhost:8080.
 
 SCENARIOS TO DO:
 Mozesz jeszcze inaczej ogranc fileDownload, z uzyciem libki cypressowej, zamiast klikac normalnie
+File Upload - fix happy scenario, few ways did not work
 Whole internet app
-Potem jakiś bankowy website chętnie bym ogarnal
+Potem jakiś bankowy website chętnie bym ogarnal - jest taki sklep od cypressa chyba
 
 Time spent:
 As a user I want to add and remove elements - add assertion, delete elements === 4h - with setup of project

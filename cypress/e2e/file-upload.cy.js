@@ -11,8 +11,7 @@ describe("FILE UPLOAD", () => {
     cy.get("h1").should("have.text", "Internal Server Error");
   });
 
-  //this does not work yet
-  xit("uploads a file", () => {
+  it("uploads a file", () => {
     cy.get("#file-upload").selectFile("testPic.jpg");
     cy.get("[type='submit']").click();
     cy.get("#uploaded-files").should("be.visible");
