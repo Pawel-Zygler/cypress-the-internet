@@ -1,6 +1,7 @@
 Cypress automation for difficult scenarios.
 
 npx cypress open
+
 npx cypress run
 
 Uruchomienie Konkretnego Pliku Testowego:
