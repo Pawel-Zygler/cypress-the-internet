@@ -18,12 +18,11 @@ W tym przypadku, baseUrl zostanie ustawione na http://localhost:8080.
 =========
 
 SCENARIOS TO DO:
-Mozesz jeszcze inaczej ogranc fileDownload, z uzyciem libki cypressowej, zamiast klikac normalnie
-File Upload - fix happy scenario, few ways did not work
-Whole internet app
-Potem jakiś bankowy website chętnie bym ogarnal - jest taki sklep od cypressa chyba
+20 scenariuszy zostało
+bankowy website cypress
 
 Time spent:
 As a user I want to add and remove elements - add assertion, delete elements === 4h - with setup of project
 basic auth ==== ?? 45m 24 sierpnia start. Not doable atm.
 inne testy, np drodpwn dynamic, dragn drop ~2h
+po 30m sie pisze test moze 20
