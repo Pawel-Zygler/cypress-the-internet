@@ -21,6 +21,7 @@
       "nested": "Nested Frames",
       "iframe": "iFrame"
     },
-    "slider": "Horizontal Slider"
+    "slider": "Horizontal Slider",
+    "hovers": "Hovers"
   }
 }
