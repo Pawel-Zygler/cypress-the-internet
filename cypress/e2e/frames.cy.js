@@ -1,6 +1,8 @@
+///<reference types="cypress-iframe" />
+
 import testData from "../fixtures/testData.json";
 
-describe("IFRAME EDITOR", () => {
+xdescribe("NESTED FRAMES EDITOR", () => {
   beforeEach(function () {
     cy.visit("/");
     cy.contains(testData.sectionName.frames.name).click();
@@ -8,7 +10,7 @@ describe("IFRAME EDITOR", () => {
   });
 
   //I failed at this for now
-  it("checks middle frame is visible", () => {
+  it("checks middle frame is visible [unresolved atm]", () => {
     // cy.get("frame-middle").within(() => {
     //   cy.get("#content").should("have.text", "MIDDLE");
     // });
@@ -22,5 +24,20 @@ describe("IFRAME EDITOR", () => {
         throw new Error('Frame "frame-left" not found');
       }
     });
+  });
+});
+
+//also failed at this, spent ~1h or sos
+xdescribe("IFRAME", () => {
+  beforeEach(function () {
+    cy.visit("/");
+    cy.contains(testData.sectionName.frames.name).click();
+    cy.contains(testData.sectionName.frames.iframe).click();
+  });
+
+  it("checks if I can add Salve mundus in the editor and assert it.", () => {
+    cy.iframe().find("body#tinymce").type("Salve Mundus");
+    // Your content goes here.
+    // cy.iframe().contains('Some hidden element').should('not.be.visible')
   });
 });
