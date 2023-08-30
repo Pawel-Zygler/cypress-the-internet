@@ -26,3 +26,9 @@ As a user I want to add and remove elements - add assertion, delete elements ===
 basic auth ==== ?? 45m 24 sierpnia start. Not doable atm.
 inne testy, np drodpwn dynamic, dragn drop ~2h
 po 30m sie pisze test moze 20
+
+Failure:
+frames nested
+iframes
+file download with plugin
+file upload

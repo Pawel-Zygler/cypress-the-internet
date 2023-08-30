@@ -20,6 +20,7 @@
       "name": "Frames",
       "nested": "Nested Frames",
       "iframe": "iFrame"
-    }
+    },
+    "slider": "Horizontal Slider"
   }
 }
