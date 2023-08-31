@@ -22,6 +22,7 @@
       "iframe": "iFrame"
     },
     "slider": "Horizontal Slider",
-    "hovers": "Hovers"
+    "hovers": "Hovers",
+    "scroll": "Infinite Scroll"
   }
 }
