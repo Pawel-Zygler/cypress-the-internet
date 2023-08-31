@@ -6,7 +6,7 @@ describe("JQUERY", () => {
     cy.contains(testData.sectionName.jquery).click();
   });
 
-  xit("jquery dropdown", () => {
+  it("jquery dropdown", () => {
     cy.get("#ui-id-3 > :nth-child(2)").click();
     cy.get('#ui-id-4 > [href="#"]').click();
     cy.get("#ui-id-5 > a").click();
