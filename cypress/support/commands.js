@@ -1,5 +1,6 @@
 require("cypress-downloadfile/lib/downloadFileCommand");
 require("cypress-iframe");
+require("cypress-real-events/support");
 
 // ***********************************************
 // This example commands.js shows you how to

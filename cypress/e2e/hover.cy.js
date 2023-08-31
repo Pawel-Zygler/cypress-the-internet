@@ -6,13 +6,12 @@ describe("HOVER", () => {
     cy.contains(testData.sectionName.hovers).click();
   });
 
-  it("hovers over 3rd and gets text", () => {
-    cy.get(":nth-child(5) > img").trigger("mouseover");
+  it("hovers over 3rd item and gets text", () => {
+    cy.get(":nth-child(5) > img").realHover();
     cy.get(".figcaption h5")
       .invoke("text")
       .then((text) => {
-        const userName = text;
-        console.log(userName);
+        expect(text).to.contain("user3");
       });
   });
 });
