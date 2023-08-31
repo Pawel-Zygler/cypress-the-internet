@@ -25,6 +25,8 @@
     "hovers": "Hovers",
     "scroll": "Infinite Scroll",
     "jquery": "JQuery UI Menus",
-    "jsAlerts": "JavaScript Alerts"
+    "jsAlerts": "JavaScript Alerts",
+    "keyPress": "Key Presses",
+    "largeDOM": "Large & Deep DOM"
   }
 }
