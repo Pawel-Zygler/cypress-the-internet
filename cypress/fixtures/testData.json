@@ -23,6 +23,8 @@
     },
     "slider": "Horizontal Slider",
     "hovers": "Hovers",
-    "scroll": "Infinite Scroll"
+    "scroll": "Infinite Scroll",
+    "jquery": "JQuery UI Menus",
+    "jsAlerts": "JavaScript Alerts"
   }
 }
