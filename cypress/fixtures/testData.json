@@ -28,6 +28,7 @@
     "jsAlerts": "JavaScript Alerts",
     "keyPress": "Key Presses",
     "largeDOM": "Large & Deep DOM",
-    "multipleWindows": "Multiple Windows"
+    "multipleWindows": "Multiple Windows",
+    "notifications": "Notification Messages"
   }
 }
