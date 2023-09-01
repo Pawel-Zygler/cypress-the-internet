@@ -30,6 +30,7 @@
     "largeDOM": "Large & Deep DOM",
     "multipleWindows": "Multiple Windows",
     "notifications": "Notification Messages",
-    "secureFileDownload": "Secure File Download"
+    "secureFileDownload": "Secure File Download",
+    "shadowDom": "Shadow DOM"
   }
 }

@@ -32,3 +32,5 @@ frames nested
 iframes
 file download with plugin
 file upload
+secure file download
+shadow dom - or skipped, not sure how to handle
