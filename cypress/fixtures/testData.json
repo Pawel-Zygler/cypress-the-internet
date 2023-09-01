@@ -32,6 +32,8 @@
     "notifications": "Notification Messages",
     "secureFileDownload": "Secure File Download",
     "shadowDom": "Shadow DOM",
-    "shiftingContent": "Shifting Content"
+    "shiftingContent": "Shifting Content",
+    "slow": "Slow Resources",
+    "dataTables": "Sortable Data Tables"
   }
 }
