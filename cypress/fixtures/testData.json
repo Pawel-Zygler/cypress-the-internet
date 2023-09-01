@@ -29,6 +29,7 @@
     "keyPress": "Key Presses",
     "largeDOM": "Large & Deep DOM",
     "multipleWindows": "Multiple Windows",
-    "notifications": "Notification Messages"
+    "notifications": "Notification Messages",
+    "secureFileDownload": "Secure File Download"
   }
 }
