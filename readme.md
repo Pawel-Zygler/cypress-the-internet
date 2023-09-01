@@ -18,7 +18,7 @@ W tym przypadku, baseUrl zostanie ustawione na http://localhost:8080.
 =========
 
 SCENARIOS TO DO:
-20 scenariuszy zostało
+11 scenariuszy zostalo
 bankowy website cypress
 
 Time spent:

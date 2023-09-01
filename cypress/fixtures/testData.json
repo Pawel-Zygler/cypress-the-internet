@@ -27,6 +27,7 @@
     "jquery": "JQuery UI Menus",
     "jsAlerts": "JavaScript Alerts",
     "keyPress": "Key Presses",
-    "largeDOM": "Large & Deep DOM"
+    "largeDOM": "Large & Deep DOM",
+    "multipleWindows": "Multiple Windows"
   }
 }
