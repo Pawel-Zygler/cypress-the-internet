@@ -7,7 +7,7 @@ This page contains internet components that you would otherwise meet in real lif
 ## cd to root and use commands
 
 - **Install dependencies**: `npm i`
-- **Open Cypress GUI**: `npx cypress open` **and then press F on keyboard and select any spec to run**
+- **Open Cypress GUI**: `npx cypress open` **then click e2e testing and pick browser. Lastly, select any spec to run. Press F to see spec list**
 - **Run All Tests in headless from cli**: `npx cypress run`
 
 ### Run Specific Test File from cli
