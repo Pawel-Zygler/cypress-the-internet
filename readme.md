@@ -2,6 +2,8 @@
 
 website under test: https://the-internet.herokuapp.com/
 
+This page contains internet components that you would otherwise meet in real life scenarios. They are intentionally made difficult to work with.
+
 ## cd to root and use commands
 
 - **Install dependencies**: `npm i`
