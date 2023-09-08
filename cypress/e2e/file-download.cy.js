@@ -1,7 +1,7 @@
 import testData from "../fixtures/testData.json";
 
-const file1 = "Image.jpg";
-const file2 = "filename.txt";
+const file1 = "Capture2.JPG";
+const file2 = "Excel.xlsx";
 
 describe("FILE DOWNLOAD", () => {
   beforeEach(function () {
