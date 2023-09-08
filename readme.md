@@ -1,22 +1,18 @@
 # Cypress automation for advanced scenarios
 
-## Commands
+## cd to root and use commands
 
 - **Install dependencies**: `npm i`
-- **Open Cypress GUI**: `npx cypress open`
-- **Run All Tests**: `npx cypress run`
+- **Open Cypress GUI, press F on keyboard and pick any spec to run**: `npx cypress open`
+- **Run All Tests in headless from cli**: `npx cypress run`
 
 ### Run Specific Test File
 
-`\`\`\``bash
-npx cypress run --spec "cypress/integration/nazwa_pliku_testowego.js"
-\`\`\`
+`bash npx cypress run --spec "cypress/e2e/close-ad.cy.js"`
 
 ### Run Tests with Specific Browser
 
-\`\`\`bash
-npx cypress run --browser chrome
-\`\`\`
+`bash npx cypress run --browser chrome`
 
 ### Run Tests with Custom Configuration
 
