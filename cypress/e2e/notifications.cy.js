@@ -13,8 +13,6 @@ describe("NOTIFICATIONS", () => {
       .then((text) => text.trim())
       .as("flashText");
 
-    // cy.get("@flashText").should("
-
     cy.get("@flashText").should((flashText) => {
       if (
         !flashText.includes("Action successful") &&

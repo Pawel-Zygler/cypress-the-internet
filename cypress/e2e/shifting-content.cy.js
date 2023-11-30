@@ -7,7 +7,7 @@ describe("SHIFTING CONTENT", () => {
   });
 
   //sometimes it does not go correctly to shifting content page
-  //flaky
+  //flakyness to improve
   it("checks if there is a header with Gallery name", () => {
     cy.get("div#content > div > a:nth-of-type(1)").click();
     cy.get(".shift").should("have.text", "Gallery");

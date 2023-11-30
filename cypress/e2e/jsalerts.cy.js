@@ -13,7 +13,6 @@ describe("JS ALERTS", () => {
     cy.on("window:confirm", () => true);
     cy.get("#result").should("have.text", "You clicked: Ok");
 
-    //Stubbing zastępuje oryginalną funkcję (prompt) wersją, która zawsze zwraca 'salve mundus'. Dlatego, kiedy skrypt na stronie wywołuje prompt, Cypress automatycznie wpisuje 'salve mundus' jako odpowiedź.
     cy.window().then((win) => {
       cy.stub(win, "prompt").returns("salve mundus");
     });
