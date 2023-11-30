@@ -3,4 +3,4 @@ videos
 screenshots
 .DS_Store
 /cypress/downloads/.DS_Store
-downloads
+frames.cy.js
